@@ -1,0 +1,25 @@
+site_name: "Meu projeto"
+
+theme:
+  name: "material"
+
+repo_name: "Estrutura_Padrao"
+repo_url: "https://github.com/LeonArmster/Estrutura_Padrao"
+
+plugins:
+  - search
+  - mkdocstrings
+  - mermaid2
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.arithmatex
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true

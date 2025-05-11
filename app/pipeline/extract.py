@@ -23,10 +23,3 @@ def extract_from_excel(path: str) -> pd.DataFrame:
     # df = pd.concat(df_list)
 
     return df_list
-
-
-if __name__ == '__main__':
-    path = r'C:\Users\Uso Pessoal\desktop\estudos\jornada_dados\estrutura_projeto\data'
-    df = extract_from_excel(path=path)
-    print('hello word')
-    print(df)
